@@ -1,0 +1,93 @@
++ ld obj/kern/kernel
++ mk obj/kern/kernel.img
+6828 decimal is XXX octal!
+Physical memory: 66556K available, base = 640K, extended = 65532K
+check_page_alloc() succeeded!
+check_page() succeeded!
+check_kern_pgdir() succeeded!
+check_page_installed_pgdir() succeeded!
+SMP: CPU 0 found 1 CPU(s)
+enabled interrupts: 1 2
+[00000000] new env 00001000
+Incoming TRAP frame at 0xefffffbc
+Incoming TRAP frame at 0xefffffbc
+Incoming TRAP frame at 0xefffffbc
+Incoming TRAP frame at 0xefffffbc
+Incoming TRAP frame at 0xefffffbc
+       before   during  
+Incoming TRAP frame at 0xefffffbc
+edi    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+esi    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+ebp    eebfdfd0 eebfdfd0 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+ebx    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+edx    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+ecx    008013e1 008013e1 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+eax    00800383 00800383 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+eip    008004e0 008004e0 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+eflags 00000ad7 00000ad7 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+esp    eebfdfb8 eebfdfb8 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+Registers in UTrapframe Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+Incoming TRAP frame at 0xefffffbc
+       before   after   
+Incoming TRAP frame at 0xefffffbc
+edi    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+esi    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+ebp    eebfdfd0 eebfdfd0 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+ebx    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+edx    00000000 00000000 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+ecx    008013e1 008013e1 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+eax    00800383 00800383 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+eip    008004e0 008004e0 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+eflags 00000ad7 00000ad7 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+esp    eebfdfb8 eebfdfb8 Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+Registers after page-fault Incoming TRAP frame at 0xefffffbc
+OK
+Incoming TRAP frame at 0xefffffbc
+[00001000] exiting gracefully
+[00001000] free env 00001000
+No runnable environments in the system!
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+qemu: terminating on signal 15 from pid 11956
